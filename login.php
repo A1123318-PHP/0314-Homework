@@ -9,7 +9,7 @@
         if(isset($_COOKIE["userName"])){
             echo "<h2>"." Welcome back! ".$_COOKIE['userName']."!</h2>";
         }
-        echo "<form action='logincheck.php' method = 'post'>";
+        echo "<form action='loginCheck.php' method = 'post'>";
             echo "<h2>Please enter your username: <input type = 'text' name = 'userName'></h2>";
             echo "<h2>Please enter your password: <input type = 'password' name = 'userPassword'></h2>";
             echo "<input type = 'submit'>";
